@@ -1,10 +1,10 @@
-# Boilerplate · Flutter · Mobile
+# Liberu Platform · Flutter · Mobile
 
-Shared application foundation and module composition. Flutter iOS/Android application using Dart and mobile widgets.
+Official sites, staff applications and platform composition. Flutter iOS/Android application using Dart and mobile widgets.
 
 This is a presentation skeleton. Product workflows, identity integration and reviewed API adapters must be implemented and verified before production use. Module plans describe intended behavior; they are not installed or published packages.
 
-Shared foundation for the product shells in this presentation layer.
+Based on [project-boilerplate-mobile-flutter](https://github.com/liberusoftware/project-boilerplate-mobile-flutter) at `c88312adadb2bdbc85b9b20be36cbc3a711e9a64`.
 
 ## Start locally
 
@@ -24,7 +24,7 @@ flutter analyze
 flutter test
 ```
 
-Read [AGENTS.md](AGENTS.md), [integration responsibilities](docs/INTEGRATION.md), the [presentation runbook](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/FLUTTER.md) and the [product scope](https://github.com/liberusoftware/documentation/blob/main/projects/boilerplate/README.md). Enable one vertical journey at a time against reviewed contracts. Verify allowed, denied, wrong-tenant, expired-session, validation and concurrency outcomes when implementing protected behavior. A pending operation is not a completed business transition.
+Read [AGENTS.md](AGENTS.md), [integration responsibilities](docs/INTEGRATION.md), the [presentation runbook](https://github.com/liberusoftware/documentation/blob/main/guides/presentation/FLUTTER.md) and the [product scope](https://github.com/liberusoftware/documentation/blob/main/projects/liberu/README.md). Enable one vertical journey at a time against reviewed contracts. Verify allowed, denied, wrong-tenant, expired-session, validation and concurrency outcomes when implementing protected behavior. A pending operation is not a completed business transition.
 
 ## Other projects using Flutter · Mobile
 
@@ -32,6 +32,7 @@ Use the same presentation foundation for other domains. These repositories provi
 
 | Project | Scope |
 | --- | --- |
+| [Boilerplate](https://github.com/liberusoftware/project-boilerplate-mobile-flutter) | Shared application foundation and module composition |
 | [Accounting ERP](https://github.com/liberusoftware/project-accounting-erp-mobile-flutter) | Ledgers, tax, reporting and finance workflows |
 | [Automation](https://github.com/liberusoftware/project-automation-mobile-flutter) | AI gateways, approvals, rules and integrations |
 | [Billing](https://github.com/liberusoftware/project-billing-mobile-flutter) | Subscriptions, pricing, payments and provisioning |
@@ -42,24 +43,23 @@ Use the same presentation foundation for other domains. These repositories provi
 | [Ecommerce](https://github.com/liberusoftware/project-ecommerce-mobile-flutter) | Catalogs, checkout, orders and fulfillment |
 | [Enterprise SAP](https://github.com/liberusoftware/project-enterprise-sap-mobile-flutter) | Enterprise workspace and cross-product orchestration |
 | [Genealogy](https://github.com/liberusoftware/project-genealogy-mobile-flutter) | Family trees, research, evidence and collaboration |
-| [Liberu Platform](https://github.com/liberusoftware/project-liberu-official-mobile-flutter) | Official sites, staff applications and platform composition |
 | [Maintenance](https://github.com/liberusoftware/project-maintenance-mobile-flutter) | Assets, work orders, schedules and field operations |
 | [Music DAW](https://github.com/liberusoftware/project-music-daw-mobile-flutter) | Composition, recording, sequencing and audio production |
 | [Real Estate](https://github.com/liberusoftware/project-real-estate-mobile-flutter) | Listings, sales, lettings and agency operations |
 | [Social Network](https://github.com/liberusoftware/project-social-network-mobile-flutter) | Profiles, feeds, communities and moderation |
 
-## Other presentations for Boilerplate
+## Other presentations for Liberu Platform
 
 Choose the surface that fits the audience and deployment boundary. The Laravel core remains authoritative across these alternatives.
 
-- [Laravel · Filament](https://github.com/liberusoftware/project-boilerplate-laravel-filament): PHP/Composer Laravel host with Filament panels.
-- [Laravel · Inertia · Vue](https://github.com/liberusoftware/project-boilerplate-laravel-inertia-vue): Laravel routes and sessions with Vue pages over the Inertia protocol.
-- [Laravel · Inertia · React](https://github.com/liberusoftware/project-boilerplate-laravel-inertia-react): Laravel routes and sessions with React pages over the Inertia protocol.
-- [Nuxt · Vue](https://github.com/liberusoftware/project-boilerplate-nuxt-vue): Independent Vue application with Nuxt server rendering and reviewed API integration.
-- [Next.js · React](https://github.com/liberusoftware/project-boilerplate-next-react): Independent React application with explicit Next.js server/client boundaries.
-- [React Native · Expo](https://github.com/liberusoftware/project-boilerplate-mobile-react): Native iOS/Android application using React Native and Expo.
-- [Dart · Desktop](https://github.com/liberusoftware/project-boilerplate-dart-desktop): Dedicated Dart desktop application with a Flutter host for Linux, macOS and Windows.
-- [Dart · Mobile](https://github.com/liberusoftware/project-boilerplate-dart-mobile): Separate Dart mobile application with a Flutter host for iOS and Android.
+- [Laravel · Filament](https://github.com/liberusoftware/project-liberu-official-laravel-filament): PHP/Composer Laravel host with Filament panels.
+- [Laravel · Inertia · Vue](https://github.com/liberusoftware/project-liberu-official-laravel-inertia-vue): Laravel routes and sessions with Vue pages over the Inertia protocol.
+- [Laravel · Inertia · React](https://github.com/liberusoftware/project-liberu-official-laravel-inertia-react): Laravel routes and sessions with React pages over the Inertia protocol.
+- [Nuxt · Vue](https://github.com/liberusoftware/project-liberu-official-nuxt-vue): Independent Vue application with Nuxt server rendering and reviewed API integration.
+- [Next.js · React](https://github.com/liberusoftware/project-liberu-official-next-react): Independent React application with explicit Next.js server/client boundaries.
+- [React Native · Expo](https://github.com/liberusoftware/project-liberu-official-mobile-react): Native iOS/Android application using React Native and Expo.
+- [Dart · Desktop](https://github.com/liberusoftware/project-liberu-official-dart-desktop): Dedicated Dart desktop application with a Flutter host for Linux, macOS and Windows.
+- [Dart · Mobile](https://github.com/liberusoftware/project-liberu-official-dart-mobile): Separate Dart mobile application with a Flutter host for iOS and Android.
 
 ## License and delivery
 
